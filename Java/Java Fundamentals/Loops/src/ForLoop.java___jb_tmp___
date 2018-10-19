@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class ForLoop {
+    public static void main(String[] args){
+
+// Calculate N!
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int fac = 1;
+
+        for(int i = 1;i <= n; i++){
+            fac *= i;
+        }
+        System.out.println(fac);
+
+// Print the numbers 0...9:
+//        for(int num = 0; num < 10; num++){
+//            System.out.println(num);
+//        }
+
+    }
+}
