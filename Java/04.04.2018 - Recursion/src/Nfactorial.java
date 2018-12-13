@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Nfactorial {
     public static void main (String[]args) {
-        var in = new Scanner(System.in);
-        var N = in.nextInt();
+        Scanner in = new Scanner(System.in);
+        int N = in.nextInt();
         System.out.println(calcFactorial(N));
     }
 
